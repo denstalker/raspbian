@@ -2,38 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "Boost_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Boost."
-				}
-			],
-			"type" : "PATH",
-			"value" : "Boost_DIR-NOTFOUND"
-		},
-		{
-			"name" : "Boost_INCLUDE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/include"
-		},
-		{
 			"name" : "CMAKE_AR",
 			"properties" : 
 			[
@@ -71,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/denis/projects/learncmake/l2/build"
+			"value" : "/home/denis/projects/learncmake/raspberry/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -171,11 +139,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -299,11 +267,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
+					"value" : "C compiler"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -595,7 +563,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/denis/projects/learncmake/l2"
+			"value" : "/home/denis/projects/learncmake/raspberry"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1166,6 +1134,86 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "CURSES_CURSES_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libcurses.so"
+		},
+		{
+			"name" : "CURSES_EXTRA_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
+			"name" : "CURSES_FORM_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libform.so"
+		},
+		{
+			"name" : "CURSES_INCLUDE_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "CURSES_NCURSES_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libncurses.so"
+		},
+		{
 			"name" : "Example1_BINARY_DIR",
 			"properties" : 
 			[
@@ -1175,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/denis/projects/learncmake/l2/build"
+			"value" : "/home/denis/projects/learncmake/raspberry/build"
 		},
 		{
 			"name" : "Example1_SOURCE_DIR",
@@ -1187,67 +1235,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/denis/projects/learncmake/l2"
+			"value" : "/home/denis/projects/learncmake/raspberry"
 		},
 		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Boost",
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Curses",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Details about finding Boost"
+					"value" : "Details about finding Curses"
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/include][c ][v1.65.1()]"
-		},
-		{
-			"name" : "_Boost_COMPONENTS_SEARCHED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Components requested for this build tree."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "_Boost_INCLUDE_DIR_LAST",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Last used Boost_INCLUDE_DIR value."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/usr/include"
-		},
-		{
-			"name" : "_Boost_NAMESPACE_LAST",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Last used Boost_NAMESPACE value."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "boost"
-		},
-		{
-			"name" : "_Boost_USE_MULTITHREADED_LAST",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Last used Boost_USE_MULTITHREADED value."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
+			"value" : "[/usr/lib/x86_64-linux-gnu/libcurses.so][/usr/include][v()]"
 		}
 	],
 	"kind" : "cache",

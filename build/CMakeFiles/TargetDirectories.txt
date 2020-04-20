@@ -1,3 +1,0 @@
-/home/denis/projects/learncmake/l2/build/CMakeFiles/rebuild_cache.dir
-/home/denis/projects/learncmake/l2/build/CMakeFiles/Example1.dir
-/home/denis/projects/learncmake/l2/build/CMakeFiles/edit_cache.dir

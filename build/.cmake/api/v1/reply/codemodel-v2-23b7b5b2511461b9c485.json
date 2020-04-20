@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Example1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Example1-004255392217d56871d4.json",
+					"jsonFile" : "target-Example1-6c1c6462e09971275f66.json",
 					"name" : "Example1",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/denis/projects/learncmake/l2/build",
-		"source" : "/home/denis/projects/learncmake/l2"
+		"build" : "/home/denis/projects/learncmake/raspberry/build",
+		"source" : "/home/denis/projects/learncmake/raspberry"
 	},
 	"version" : 
 	{

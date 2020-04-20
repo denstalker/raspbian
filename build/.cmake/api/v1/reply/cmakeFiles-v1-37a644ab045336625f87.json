@@ -682,7 +682,12 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/local/share/cmake-3.15/Modules/FindBoost.cmake"
+			"path" : "/usr/local/share/cmake-3.15/Modules/FindCurses.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CheckLibraryExists.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -698,8 +703,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/denis/projects/learncmake/l2/build",
-		"source" : "/home/denis/projects/learncmake/l2"
+		"build" : "/home/denis/projects/learncmake/raspberry/build",
+		"source" : "/home/denis/projects/learncmake/raspberry"
 	},
 	"version" : 
 	{
