@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabi-g++     CMakeFiles/Example1.dir/main.cpp.o CMakeFiles/Example1.dir/version.cpp.o  -o Example1 
